@@ -1,0 +1,42 @@
+{
+  "name": "all-cli",
+  "version": "0.2.0-Beta-11",
+  "description": "前端项目脚手架 beta版 用于快速创建vue react express koa2 mina项目(express、koa2、mina官方模板)",
+  "keywords": [
+    "all-cli",
+    "cli",
+    "react",
+    "vue",
+    "koa2",
+    "express",
+    "小程序"
+  ],
+  "bin": {
+    "all": "./bin/all"
+  },
+  "main": "bin/all",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "download-git-repo": "^1.0.2",
+    "figlet": "^1.2.1",
+    "fs-extra": "^7.0.1",
+    "glob": "^7.1.2",
+    "handlebars": "^4.0.11",
+    "inquirer": "^5.2.0",
+    "latest-version": "^3.1.0",
+    "log-symbols": "^2.2.0",
+    "log4js": "^3.0.5",
+    "metalsmith": "^2.3.0",
+    "ora": "^2.1.0",
+    "react-dev-utils": "^5.0.0",
+    "read-metadata": "^1.0.0",
+    "semver": "^5.5.1",
+    "user-home": "^2.0.0"
+  }
+}

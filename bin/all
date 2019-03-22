@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+require('commander')
+  .version(require('../package').version)
+  .usage('init <type> [options]')
+  .command('init [name] [options]', '创建项目' )
+  .command('init [name] [options]', '创建项目' )
+  .on('--help', function () {
+    console.log('');
+    console.log('Examples:');
+    console.log('  all init vue xxx => 生成vue项目');
+    console.log('  all init mina xxx => 生成小程序项目');
+    console.log('  all init react xxx => 生成react项目');
+    console.log('  all init react-beta xxx => 生成react入门练手项目');
+    console.log('  all init express xxx => 生成express项目');
+    console.log('  all init koa2 xxx => 生成koa2项目');
+  })
+  .parse(process.argv)
