@@ -1,6 +1,6 @@
 {
   "name": "all-cli",
-  "version": "0.2.0-Beta-12",
+  "version": "0.2.0-Beta-13",
   "description": "前端项目脚手架 beta版 用于快速创建vue react express koa2 mina项目(express、koa2、mina官方模板)",
   "keywords": [
     "all-cli",
