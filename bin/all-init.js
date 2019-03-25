@@ -27,14 +27,15 @@ help()
 /**
  * 输入内容是否合法
  */
-const supportList = ['vue', 'react', 'react-beta', 'mina', 'express', 'koa2']
+const supportList = ['vue', 'react', 'react-beta', 'taro', 'express', 'koa2', 'mpvue']
 const supportNameList = {
     'vue': 'vue',
     'react': 'react',
     'react-beta': 'react练手版',
-    'mina': '小程序',
+    'taro': 'taro版小程序',
     'express': 'node-express',
-    'koa2': 'node-koa2'
+    'koa2': 'node-koa2',
+    'mpvue': 'mpvue版小程序'
 }
 let templateType = program.args[0]
 const rawName = program.args[1]
